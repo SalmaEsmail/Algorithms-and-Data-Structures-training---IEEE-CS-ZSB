@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class TheOutput {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int num = input.nextInt();
+        String w;
+        for (int i = 0; i < num; i++) {
+            w = input.next();
+        }
+        for (int i = 0; i < num; i++) {
+
+            System.out.println("gzuz");
+
+        }
+    }
+
+}
