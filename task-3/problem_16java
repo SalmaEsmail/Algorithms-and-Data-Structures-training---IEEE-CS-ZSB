@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int n = input.nextInt();
+        int r [] = new int [100];
+        String a =input.next();
+          int count =0;
+          int j =0;
+        for (int i = 0; i <= n -1; i++)
+        {
+           if(a.charAt(i)  == 'B')
+           {
+               count++;
+               r[j] =count;
+               if (i == n - 1) 
+               {
+                j++;
+            }
+        } else if (count != 0)
+        {
+            count = 0;
+            j++;
+        }
+           }
+        
+       System.out.println(j);
+       for (int i = 0; i < j; i++) 
+       {
+        System.out.println(r[i]);
+    }
+    }
+}
