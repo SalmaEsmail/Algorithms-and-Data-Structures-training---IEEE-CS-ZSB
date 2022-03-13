@@ -1,11 +1,11 @@
-package javaapplication29;
+
 import java.util.Scanner;
 
 /**
  *
  * @author DELL
  */
-public class JavaApplication29 {
+public class JavaApplication28{
 
     /**
      * @param args the command line arguments
